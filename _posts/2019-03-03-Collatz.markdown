@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Collatz"
+title:  "Collatz Teoremi"
 date:   2019-03-03 18:32:30 +0000
 categories: jekyll update
 --- 
 
-
+{% highlight python %}
 def collatz(sayı, basamak):
     if (sayı == 1):
         print("1'e " + str(basamak) + ". basamakta ulaşıldı")
@@ -26,4 +26,4 @@ while True:
     sayı = int(sayı)
     basamak = 1
     collatz(sayı, basamak)
-
+{% endhighlight %}
